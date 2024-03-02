@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+  
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    height: 15vh;
+     /* Use flexbox to center the links vertically */
+  align-items: center;
+  padding-right: 6vw;
+  overflow: hidden;
+ 
+  }
+
+  .left-elements{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 100%;
+    background-color: white;
+  }
+
+  
+  /* Style the links inside the navigation bar */
+  .right-elements{
+    float: right;
+    color: #f2f2f2;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 100%;
+ 
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover, .bottomnav a:hover {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+
+  /* .topnav a.active .bottomnav a:hover{
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+  footer{
+    background-color: black;
+    bottom: 0;
+    /* width: 100%; */
+    left: 0;
+    height: 15vh;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+  }
+
+  .main-body{
+    height: 70vh;
+    display: flex;
+  }
+  .main-body-left{
+    flex: 1;
+    height: 100%;
+    width: 90vw;
+   
+  }
+  .main-body-right{
+    height: 100%;
+    width: 10vw;
+    background-color: black;
+    color: white;
+   align-items: center;
+    
+  }
+
+  .main-body-right p{
+    transform: rotate(90deg);
+    margin-top: 20vh;
+  }
+
+  hr{
+    transform: rotate(90deg);
+    margin-top: 13vh;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .linked-in, .github, .gmail{
+    color: white; 
+
+    padding: 10px;
+    margin: 0 auto;
+
+  }
+  .linked-in{
+    margin-top: 11vh; 
+   margin-left: 38%;
+  }
+
+  .github, .gmail{
+
+    margin-left: 38%;
+  }
+  .bottomnav{
+    background-color: black;
+    overflow: hidden;
+    height: 15vh;
+     /* Use flexbox to center the links vertically */
+  align-items: center;
+
+  overflow: hidden;
+  }
+
+.bottomnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 30px 60px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 100%;
+    background-color: white;
+
+}
+
+
+ 
