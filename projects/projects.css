@@ -66,12 +66,12 @@
   transform: translateY(25px);
   transition: all 0.4s;
 }
-/* .blog-slider__code {
+.blog-slider__code {
   color: #7b7992;
   margin-bottom: 15px;
   display: block;
   font-weight: 500;
-} */
+}
 .blog-slider__title {
   font-size: 24px;
   font-weight: 700;
