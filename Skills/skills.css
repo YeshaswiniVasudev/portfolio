@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
 .topnav {
     background-color: black;
     overflow: hidden;
@@ -38,4 +45,29 @@
     background: linear-gradient(-45deg, #12c2e9, #c471ed, #f64f59);
     -webkit-background-clip: text;
     color: transparent;
+  }
+
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+
   }
